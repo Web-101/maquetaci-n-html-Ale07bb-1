@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Biblioteca - Maqueta semántica</title>
+</head>
+<body>
+  <header>
+    <h1>Book Club</h1>
+
+    <nav aria-label="Navegación principal">
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#libros">Libros</a></li>
+        <li><a href="#eventos">Eventos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+        <li><a href="#unirse">Unirse</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="inicio">
+    <section aria-labelledby="titulo-principal">
+      <figure>
+        <img
+          src="assets/img/hero-libros.jpg"
+          alt="Varios libros colocados sobre una mesa de madera"
+          width="420">
+      </figure>
+
+      <article>
+        <h2 id="titulo-principal">Descubre el placer de leer juntos</h2>
+        <p>
+          Nuestro club de lectura te invita a explorar nuevos mundos, compartir ideas
+          y conectar con otros amantes de los libros. Cada mes seleccionamos una obra
+          para leer, analizar y comentar en comunidad.
+        </p>
+        <p>
+          <a href="#libro-del-mes">Ver el libro del mes</a>
+        </p>
+      </article>
+    </section>
+
+    <aside aria-labelledby="perfil-titulo">
+      <h2 id="perfil-titulo">Perfil</h2>
+      <img
+        src="assets/img/perfil-usuario.jpg"
+        alt="Foto de perfil de una integrante del club de lectura"
+        width="80">
+      <p>Espacio de cuenta del usuario y accesos rápidos del sitio.</p>
+    </aside>
+
+    <section id="libro-del-mes" aria-labelledby="libro-mes-titulo">
+      <h2 id="libro-mes-titulo">Libro del mes</h2>
+
+      <article>
+        <h3>El Jardín Secreto</h3>
+        <p>
+          Una joven descubre un jardín abandonado lleno de secretos y magia,
+          transformando su vida y la de quienes la rodean.
+        </p>
+        <p><a href="#">Ver más</a></p>
+
+        <figure>
+          <img
+            src="assets/img/libro-mes-secret-garden.jpg"
+            alt="Portada del libro El Jardín Secreto sobre un fondo verde con hojas"
+            width="320">
+          <figcaption>Lectura destacada del mes.</figcaption>
+        </figure>
+      </article>
+    </section>
+
+    <section id="eventos" aria-labelledby="eventos-titulo">
+      <h2 id="eventos-titulo">Próximos eventos</h2>
+
+      <article>
+        <img
+          src="assets/img/icono-calendario-1.jpg"
+          alt="Icono de calendario para evento de discusión literaria"
+          width="34">
+        <h3>Discusión sobre 'El Jardín Secreto'</h3>
+        <p>15 de julio, 19:00</p>
+      </article>
+
+      <article>
+        <img
+          src="assets/img/icono-calendario-2.jpg"
+          alt="Icono de calendario para taller de escritura creativa"
+          width="34">
+        <h3>Taller de escritura creativa</h3>
+        <p>22 de julio, 18:00</p>
+      </article>
+
+      <article>
+        <img
+          src="assets/img/icono-calendario-3.jpg"
+          alt="Icono de calendario para noche de juegos de mesa literarios"
+          width="34">
+        <h3>Noche de juegos de mesa literarios</h3>
+        <p>29 de julio, 20:00</p>
+      </article>
+    </section>
+
+    <section id="libros" aria-labelledby="anteriores-titulo">
+      <h2 id="anteriores-titulo">Libros leídos en meses anteriores</h2>
+
+      <article>
+        <figure>
+          <img
+            src="assets/img/gran-gatsby.jpg"
+            alt="Portada del libro El Gran Gatsby"
+            width="130">
+          <figcaption>
+            <strong>El Gran Gatsby</strong><br>
+            <span>F. Scott Fitzgerald</span>
+          </figcaption>
+        </figure>
+      </article>
+
+      <article>
+        <figure>
+          <img
+            src="assets/img/cien-anos-soledad.jpg"
+            alt="Portada del libro Cien años de soledad"
+            width="110">
+          <figcaption>
+            <strong>Cien años de soledad</strong><br>
+            <span>Gabriel García Márquez</span>
+          </figcaption>
+        </figure>
+      </article>
+
+      <article>
+        <figure>
+          <img
+            src="assets/img/orgullo-prejuicio.jpg"
+            alt="Portada del libro Orgullo y prejuicio"
+            width="130">
+          <figcaption>
+            <strong>Orgullo y prejuicio</strong><br>
+            <span>Jane Austen</span>
+          </figcaption>
+        </figure>
+      </article>
+    </section>
+  </main>
+
+  <footer id="contacto">
+    <p> 2025 Book Club. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
